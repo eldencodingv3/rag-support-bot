@@ -7,6 +7,7 @@ import type { Document } from '@langchain/core/documents';
 import { loadFAQDocuments } from './dataset.js';
 
 let vectorStore: MemoryVectorStore;
+export let ragReady = false;
 
 const SYSTEM_PROMPT = `You are a helpful customer support assistant. Answer the user's question based ONLY on the following FAQ context. If the context does not contain information relevant to the question, say "I don't have information about that. Please contact our support team for further assistance."
 
@@ -16,15 +17,27 @@ Context:
 {context}`;
 
 export async function initializeRAG(): Promise<void> {
-  const docs = loadFAQDocuments();
+  try {
+    const apiKey = process.env.OPENAI_API_KEY;
+    if (!apiKey || apiKey === 'pending' || apiKey === '') {
+      console.warn('OPENAI_API_KEY is not configured. RAG pipeline will not be available.');
+      return;
+    }
 
-  const embeddings = new OpenAIEmbeddings({
-    model: 'text-embedding-3-small',
-  });
+    const docs = loadFAQDocuments();
 
-  vectorStore = await MemoryVectorStore.fromDocuments(docs, embeddings);
+    const embeddings = new OpenAIEmbeddings({
+      model: 'text-embedding-3-small',
+    });
 
-  console.log(`RAG pipeline initialized with ${docs.length} FAQ documents`);
+    vectorStore = await MemoryVectorStore.fromDocuments(docs, embeddings);
+    ragReady = true;
+
+    console.log(`RAG pipeline initialized with ${docs.length} FAQ documents`);
+  } catch (error) {
+    console.error('Failed to initialize RAG pipeline:', error);
+    console.warn('Server will continue without RAG capabilities.');
+  }
 }
 
 export interface RAGResult {
