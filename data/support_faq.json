@@ -1,0 +1,167 @@
+[
+  {
+    "question": "How do I reset my password?",
+    "answer": "To reset your password, click 'Forgot Password' on the login page. Enter your registered email address and we'll send you a password reset link. The link expires in 24 hours. If you don't receive the email, check your spam folder.",
+    "category": "Account Management"
+  },
+  {
+    "question": "How do I delete my account?",
+    "answer": "To delete your account, go to Settings > Account > Delete Account. You'll be asked to confirm your decision. Please note that account deletion is permanent and all your data will be removed within 30 days. You can also contact support to request account deletion.",
+    "category": "Account Management"
+  },
+  {
+    "question": "How do I update my profile information?",
+    "answer": "Go to Settings > Profile to update your name, email, phone number, and profile picture. Changes to your email address will require verification via a confirmation link sent to your new email.",
+    "category": "Account Management"
+  },
+  {
+    "question": "I can't log in to my account. What should I do?",
+    "answer": "First, make sure you're using the correct email and password. Try resetting your password using the 'Forgot Password' link. If your account is locked due to too many failed attempts, wait 30 minutes before trying again. If the problem persists, contact our support team.",
+    "category": "Account Management"
+  },
+  {
+    "question": "How do I enable two-factor authentication?",
+    "answer": "Go to Settings > Security > Two-Factor Authentication. You can set up 2FA using an authenticator app like Google Authenticator or Authy. Scan the QR code with your app and enter the verification code to complete setup. We recommend saving your backup codes in a safe place.",
+    "category": "Account Management"
+  },
+  {
+    "question": "Can I change my username?",
+    "answer": "Yes, you can change your username once every 30 days. Go to Settings > Profile > Username to make the change. Your old username will be available for others to claim after 14 days.",
+    "category": "Account Management"
+  },
+  {
+    "question": "What is your refund policy?",
+    "answer": "We offer a full refund within 30 days of purchase for all subscription plans. After 30 days, refunds are prorated based on remaining time. To request a refund, go to Settings > Billing > Request Refund, or contact our support team. Refunds are processed within 5-10 business days.",
+    "category": "Billing & Payments"
+  },
+  {
+    "question": "What payment methods do you accept?",
+    "answer": "We accept Visa, Mastercard, American Express, Discover, PayPal, Apple Pay, and Google Pay. For annual enterprise plans, we also accept bank transfers and wire payments. All payments are processed securely through Stripe.",
+    "category": "Billing & Payments"
+  },
+  {
+    "question": "What subscription plans are available?",
+    "answer": "We offer three plans: Free (basic features, 5 projects), Pro ($12/month, unlimited projects, priority support), and Enterprise ($49/month, advanced analytics, dedicated account manager, custom integrations). All paid plans include a 14-day free trial.",
+    "category": "Billing & Payments"
+  },
+  {
+    "question": "How do billing cycles work?",
+    "answer": "Billing cycles start on the day you subscribe. Monthly plans are billed every 30 days, and annual plans are billed once per year. You can switch between monthly and annual billing at any time. Annual plans offer a 20% discount compared to monthly billing.",
+    "category": "Billing & Payments"
+  },
+  {
+    "question": "How do I download my invoices?",
+    "answer": "Go to Settings > Billing > Invoice History to view and download all your invoices as PDF files. Invoices are generated automatically after each payment. You can also set up automatic invoice emails by enabling the option in your billing settings.",
+    "category": "Billing & Payments"
+  },
+  {
+    "question": "How do I cancel my subscription?",
+    "answer": "Go to Settings > Billing > Manage Subscription and click 'Cancel Subscription'. Your access will continue until the end of your current billing period. You won't be charged again after cancellation. You can reactivate your subscription at any time.",
+    "category": "Billing & Payments"
+  },
+  {
+    "question": "Why was my payment declined?",
+    "answer": "Payments can be declined for several reasons: insufficient funds, expired card, incorrect card details, or your bank blocking the transaction. Please verify your payment information in Settings > Billing > Payment Methods. If the issue persists, contact your bank or try a different payment method.",
+    "category": "Billing & Payments"
+  },
+  {
+    "question": "The app keeps crashing. How do I fix it?",
+    "answer": "Try these steps: 1) Force close and reopen the app, 2) Clear the app cache in your device settings, 3) Make sure you're running the latest version, 4) Restart your device, 5) Uninstall and reinstall the app. If the issue persists, contact support with your device model and OS version.",
+    "category": "Technical Support"
+  },
+  {
+    "question": "I'm having connectivity issues. What should I check?",
+    "answer": "Check your internet connection by visiting other websites. Try switching between Wi-Fi and mobile data. Clear your browser cache and cookies. Disable any VPN or proxy services. If using our app, make sure it's updated to the latest version. Check our status page for any ongoing outages.",
+    "category": "Technical Support"
+  },
+  {
+    "question": "Which browsers are supported?",
+    "answer": "We support the latest versions of Chrome, Firefox, Safari, and Microsoft Edge. We recommend using Chrome or Firefox for the best experience. Internet Explorer is not supported. Make sure JavaScript and cookies are enabled in your browser settings.",
+    "category": "Technical Support"
+  },
+  {
+    "question": "Is there a mobile app available?",
+    "answer": "Yes, our mobile app is available for both iOS (iPhone and iPad) and Android devices. Download it from the Apple App Store or Google Play Store. The app requires iOS 15+ or Android 10+. The mobile app includes all features available on the web version.",
+    "category": "Technical Support"
+  },
+  {
+    "question": "How do I clear my cache and cookies?",
+    "answer": "In Chrome: Settings > Privacy > Clear Browsing Data. In Firefox: Settings > Privacy > Clear Data. In Safari: Preferences > Privacy > Manage Website Data. After clearing, you'll need to log in again. This often resolves display issues and loading problems.",
+    "category": "Technical Support"
+  },
+  {
+    "question": "How do I report a bug?",
+    "answer": "You can report bugs through the app by going to Help > Report a Bug. Include a description of the issue, steps to reproduce it, and screenshots if possible. You can also email bugs@example.com. Our team reviews all bug reports within 48 hours.",
+    "category": "Technical Support"
+  },
+  {
+    "question": "What are the shipping times?",
+    "answer": "Standard shipping takes 5-7 business days within the US. Express shipping takes 2-3 business days. Overnight shipping is available for orders placed before 2 PM EST. You'll receive a tracking number via email once your order ships.",
+    "category": "Shipping & Returns"
+  },
+  {
+    "question": "What is your return policy?",
+    "answer": "We accept returns within 30 days of delivery for unused items in original packaging. To start a return, go to Orders > Select Order > Request Return. Once approved, you'll receive a prepaid return shipping label. Refunds are processed within 5-7 business days after we receive the item.",
+    "category": "Shipping & Returns"
+  },
+  {
+    "question": "How do I track my order?",
+    "answer": "Go to Orders > Select Your Order to view tracking information. You'll also receive tracking updates via email. Click the tracking number to see real-time delivery status on the carrier's website. If tracking hasn't updated in 48 hours, contact our support team.",
+    "category": "Shipping & Returns"
+  },
+  {
+    "question": "Do you offer international shipping?",
+    "answer": "Yes, we ship to over 50 countries worldwide. International shipping takes 7-14 business days depending on the destination. Additional customs fees and import duties may apply and are the responsibility of the buyer. Free international shipping is available on orders over $100.",
+    "category": "Shipping & Returns"
+  },
+  {
+    "question": "My order arrived damaged. What should I do?",
+    "answer": "We're sorry about that. Please take photos of the damaged item and packaging, then contact us within 48 hours of delivery. Go to Orders > Select Order > Report Issue, or email support@example.com with your order number and photos. We'll send a replacement or issue a full refund.",
+    "category": "Shipping & Returns"
+  },
+  {
+    "question": "Can I change my shipping address after placing an order?",
+    "answer": "You can change your shipping address if the order hasn't been shipped yet. Go to Orders > Select Order > Edit Address. If the order has already shipped, you'll need to contact the carrier directly or wait for delivery and then request a return.",
+    "category": "Shipping & Returns"
+  },
+  {
+    "question": "How do I contact customer support?",
+    "answer": "You can reach us through: Live chat on our website (available 24/7), email at support@example.com (response within 24 hours), phone at 1-800-555-0123 (Mon-Fri 9 AM - 6 PM EST), or through our social media channels on Twitter and Facebook.",
+    "category": "General"
+  },
+  {
+    "question": "What are your business hours?",
+    "answer": "Our customer support team is available Monday through Friday, 9 AM to 6 PM Eastern Time. Live chat support is available 24/7 with AI assistance. Phone support is available during business hours. Email support responses are provided within 24 hours on business days.",
+    "category": "General"
+  },
+  {
+    "question": "How do you protect my data and privacy?",
+    "answer": "We take data privacy seriously. We use AES-256 encryption for data at rest and TLS 1.3 for data in transit. We are SOC 2 Type II and GDPR compliant. We never sell your personal data to third parties. You can download or delete your data at any time from Settings > Privacy.",
+    "category": "General"
+  },
+  {
+    "question": "How do I submit a feature request?",
+    "answer": "We love hearing from our users! Submit feature requests through Help > Feature Request in the app, or visit our community forum at community.example.com. You can also vote on existing feature requests. Our product team reviews all submissions monthly.",
+    "category": "General"
+  },
+  {
+    "question": "Do you have an API available?",
+    "answer": "Yes, we offer a RESTful API for Pro and Enterprise plan users. API documentation is available at docs.example.com/api. API keys can be generated in Settings > Developer > API Keys. The API includes rate limiting of 1000 requests per minute for Pro and 10000 for Enterprise.",
+    "category": "General"
+  },
+  {
+    "question": "Is there a free trial available?",
+    "answer": "Yes, all paid plans come with a 14-day free trial. No credit card is required to start the trial. You'll have access to all features of the plan during the trial period. We'll send you a reminder email 3 days before the trial ends.",
+    "category": "General"
+  },
+  {
+    "question": "How do I export my data?",
+    "answer": "Go to Settings > Privacy > Export Data to download a complete copy of your data in JSON or CSV format. The export includes your profile information, activity history, and all content you've created. Data exports are typically ready within 24 hours for large accounts.",
+    "category": "General"
+  },
+  {
+    "question": "What integrations do you support?",
+    "answer": "We integrate with popular tools including Slack, Microsoft Teams, Google Workspace, Salesforce, HubSpot, Zapier, and Jira. Integration setup is available in Settings > Integrations. Enterprise plans support custom integrations via our API and webhooks.",
+    "category": "Technical Support"
+  }
+]
