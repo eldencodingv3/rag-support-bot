@@ -1,26 +1,28 @@
 name: CI
+
 on:
   push:
     branches: [main]
   pull_request:
     branches: [main]
+
 jobs:
-  build:
+  check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          node-version: '20'
-      - name: Install server deps
-        run: cd server && npm ci
-      - name: Install client deps
-        run: cd client && npm ci
-      - name: TypeScript check server
-        run: cd server && npx tsc --noEmit
-      - name: TypeScript check client
-        run: cd client && npx tsc --noEmit
-      - name: Build client
-        run: cd client && npm run build
-      - name: Build server
-        run: cd server && npm run build
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Syntax check all Python files
+        run: |
+          find . -name "*.py" -not -path "./venv/*" | while read f; do
+            python -m py_compile "$f"
+          done
+          echo "All Python files passed syntax check"

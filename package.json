@@ -1,9 +1,0 @@
-{
-  "name": "rag-support-bot",
-  "private": true,
-  "scripts": {
-    "build": "cd client && npm run build && cd ../server && npm run build",
-    "start": "cd server && npm start",
-    "dev": "cd server && npm run dev"
-  }
-}
