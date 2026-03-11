@@ -1,1 +1,142 @@
-[]
+[
+  {
+    "question": "How do I reset my password?",
+    "answer": "To reset your password, go to the login page and click 'Forgot Password'. Enter your email address and we'll send you a reset link. The link expires in 24 hours.",
+    "category": "account"
+  },
+  {
+    "question": "How do I update my email address?",
+    "answer": "Go to Settings > Account > Email and enter your new email address. You'll receive a verification email at the new address. Click the link in that email to confirm the change.",
+    "category": "account"
+  },
+  {
+    "question": "How do I delete my account?",
+    "answer": "To delete your account, go to Settings > Account > Delete Account. You'll be asked to confirm by entering your password. Account deletion is permanent and all your data will be removed within 30 days.",
+    "category": "account"
+  },
+  {
+    "question": "How do I enable two-factor authentication?",
+    "answer": "Go to Settings > Security > Two-Factor Authentication and click 'Enable'. You can use an authenticator app like Google Authenticator or Authy. Scan the QR code with your app and enter the verification code to complete setup.",
+    "category": "account"
+  },
+  {
+    "question": "What payment methods do you accept?",
+    "answer": "We accept Visa, Mastercard, American Express, Discover, PayPal, Apple Pay, and Google Pay. All payments are processed securely through our PCI-compliant payment system.",
+    "category": "billing"
+  },
+  {
+    "question": "How do I update my billing information?",
+    "answer": "Go to Settings > Billing > Payment Methods. Click 'Edit' next to your current payment method or 'Add New' to add a different one. Changes take effect on your next billing cycle.",
+    "category": "billing"
+  },
+  {
+    "question": "Why was I charged twice?",
+    "answer": "Duplicate charges are usually temporary authorization holds that will disappear within 3-5 business days. If the duplicate charge persists after 5 business days, please contact our support team with your order number and we'll issue a refund.",
+    "category": "billing"
+  },
+  {
+    "question": "How do I get a refund?",
+    "answer": "To request a refund, go to Orders > select the order > click 'Request Refund'. Refunds are processed within 5-10 business days and will be returned to your original payment method. Items must be returned within 30 days of delivery.",
+    "category": "returns"
+  },
+  {
+    "question": "What is your return policy?",
+    "answer": "We offer a 30-day return policy for most items. Products must be in their original packaging and unused condition. Some items like personalized products, perishables, and digital downloads are non-returnable. Return shipping is free for defective items.",
+    "category": "returns"
+  },
+  {
+    "question": "How do I return an item?",
+    "answer": "Go to Orders > select the order > click 'Return Item'. Choose the items you want to return, select a reason, and print the prepaid return label. Drop the package at any authorized shipping location. You'll receive a refund once we process the return.",
+    "category": "returns"
+  },
+  {
+    "question": "How long does shipping take?",
+    "answer": "Standard shipping takes 5-7 business days, expedited shipping takes 2-3 business days, and overnight shipping delivers the next business day. Shipping times start after your order has been processed, which usually takes 1-2 business days.",
+    "category": "shipping"
+  },
+  {
+    "question": "Do you ship internationally?",
+    "answer": "Yes, we ship to over 50 countries worldwide. International shipping typically takes 7-14 business days. Additional customs fees and import duties may apply depending on your country. These fees are the responsibility of the recipient.",
+    "category": "shipping"
+  },
+  {
+    "question": "How do I track my order?",
+    "answer": "Go to Orders > select your order to view tracking information. You'll also receive a tracking email once your order ships. Click the tracking number to see real-time updates on your delivery status.",
+    "category": "orders"
+  },
+  {
+    "question": "Can I change or cancel my order?",
+    "answer": "You can modify or cancel your order within 1 hour of placing it by going to Orders > select the order > 'Modify' or 'Cancel'. After 1 hour, orders enter processing and cannot be changed. You would need to wait for delivery and then initiate a return.",
+    "category": "orders"
+  },
+  {
+    "question": "My order arrived damaged. What should I do?",
+    "answer": "We're sorry about that! Please take photos of the damaged item and packaging, then go to Orders > select the order > 'Report Issue'. Upload the photos and describe the damage. We'll send a replacement or issue a full refund within 2 business days.",
+    "category": "orders"
+  },
+  {
+    "question": "How do I cancel my subscription?",
+    "answer": "Go to Settings > Subscription > click 'Cancel Subscription'. Your subscription will remain active until the end of your current billing period. You won't be charged again after cancellation. You can reactivate anytime.",
+    "category": "subscription"
+  },
+  {
+    "question": "How do I upgrade or downgrade my plan?",
+    "answer": "Go to Settings > Subscription > 'Change Plan'. Select your new plan and confirm. Upgrades take effect immediately with a prorated charge. Downgrades take effect at the start of your next billing cycle.",
+    "category": "subscription"
+  },
+  {
+    "question": "What happens when my free trial ends?",
+    "answer": "When your free trial ends, you'll be automatically charged for the plan you selected during sign-up. You'll receive an email reminder 3 days before the trial ends. To avoid charges, cancel before the trial period expires.",
+    "category": "subscription"
+  },
+  {
+    "question": "The website is not loading. What should I do?",
+    "answer": "Try clearing your browser cache and cookies, then refresh the page. If the issue persists, try using a different browser or disabling browser extensions. You can also check our status page at status.example.com for any ongoing outages.",
+    "category": "technical"
+  },
+  {
+    "question": "Which browsers are supported?",
+    "answer": "We support the latest versions of Chrome, Firefox, Safari, and Edge. We recommend keeping your browser updated for the best experience. Internet Explorer is not supported.",
+    "category": "technical"
+  },
+  {
+    "question": "The app keeps crashing on my phone. How do I fix it?",
+    "answer": "Try these steps: 1) Force close the app and reopen it, 2) Check for app updates in your app store, 3) Restart your device, 4) Uninstall and reinstall the app. If the issue persists, contact support with your device model and OS version.",
+    "category": "technical"
+  },
+  {
+    "question": "How do I contact customer support?",
+    "answer": "You can reach us through: Live chat (available 24/7 on our website), email at support@example.com (response within 24 hours), or phone at 1-800-555-0199 (Mon-Fri, 9am-6pm EST). You can also submit a ticket through your account dashboard.",
+    "category": "general"
+  },
+  {
+    "question": "What are your business hours?",
+    "answer": "Our live chat support is available 24/7. Phone support is available Monday through Friday, 9am to 6pm Eastern Time. Email support is available around the clock with responses within 24 hours.",
+    "category": "general"
+  },
+  {
+    "question": "Do you offer a student discount?",
+    "answer": "Yes! We offer a 20% student discount. To verify your student status, sign up with your .edu email address or verify through our partner SheerID. The discount applies to all subscription plans and is valid for up to 4 years.",
+    "category": "billing"
+  },
+  {
+    "question": "How do I apply a promo code?",
+    "answer": "Enter your promo code in the 'Promo Code' field during checkout and click 'Apply'. The discount will be reflected in your order total. Only one promo code can be used per order. Promo codes cannot be combined with other offers.",
+    "category": "billing"
+  },
+  {
+    "question": "Can I change my shipping address after placing an order?",
+    "answer": "You can update your shipping address within 1 hour of placing your order by going to Orders > select the order > 'Edit Shipping Address'. After the order enters processing, the address cannot be changed. Contact support if you need urgent assistance.",
+    "category": "shipping"
+  },
+  {
+    "question": "What is your privacy policy?",
+    "answer": "We take your privacy seriously. We collect only the data necessary to provide our services. We never sell your personal information to third parties. You can view our full privacy policy at example.com/privacy and manage your data preferences in Settings > Privacy.",
+    "category": "general"
+  },
+  {
+    "question": "How do I leave a product review?",
+    "answer": "Go to Orders > select a delivered order > click 'Write a Review' next to the product. Rate the product from 1-5 stars and write your review. Reviews are moderated and typically appear within 24-48 hours.",
+    "category": "general"
+  }
+]
