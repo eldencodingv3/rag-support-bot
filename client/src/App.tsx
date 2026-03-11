@@ -18,18 +18,18 @@ export default function App() {
   const [loading, setLoading] = useState(false)
 
   const sendMessage = useCallback(async () => {
-    const question = input.trim()
-    if (!question || loading) return
+    const text = input.trim()
+    if (!text || loading) return
 
     setInput('')
-    setMessages(prev => [...prev, { role: 'user', content: question }])
+    setMessages(prev => [...prev, { role: 'user', content: text }])
     setLoading(true)
 
     try {
       const res = await fetch('/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ question }),
+        body: JSON.stringify({ message: text }),
       })
 
       if (!res.ok) {
@@ -41,7 +41,7 @@ export default function App() {
         ...prev,
         {
           role: 'bot',
-          content: data.answer,
+          content: data.response,
           sources: data.sources,
         },
       ])
