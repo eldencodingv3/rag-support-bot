@@ -8,15 +8,20 @@ import os
 from app.ingest import ingest_faq
 from app.rag import query_rag
 
+rag_initialized = False
+
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
+    global rag_initialized
     # Startup: ingest FAQ data into ChromaDB
     try:
         ingest_faq()
+        rag_initialized = True
         print("FAQ data ingested successfully")
     except Exception as e:
         print(f"Warning: Failed to ingest FAQ data: {e}")
+        print("Server will start without RAG capabilities")
     yield
 
 
@@ -43,6 +48,11 @@ async def health_check():
 
 @app.post("/api/chat")
 async def chat(request: ChatRequest):
+    if not rag_initialized:
+        return {
+            "response": "RAG pipeline not initialized. Please configure a valid OPENAI_API_KEY.",
+            "sources": [],
+        }
     if not request.message.strip():
         raise HTTPException(status_code=400, detail="Message cannot be empty")
     try:
